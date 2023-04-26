@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { LibrosComponent } from './pages/libros/libros.component';
+import { AlbumsComponent } from './pages/albums/albums.component';
 import { FormulariosComponent } from './pages/formularios/formularios.component';
 import { NavComponent } from './core/nav/nav.component';
 
@@ -14,7 +14,7 @@ import { NavComponent } from './core/nav/nav.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    LibrosComponent,
+    AlbumsComponent,
     FormulariosComponent,
     NavComponent
   ],
