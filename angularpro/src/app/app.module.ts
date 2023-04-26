@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { AlbumsComponent } from './pages/albums/albums.component';
 import { FormulariosComponent } from './pages/formularios/formularios.component';
 import { NavComponent } from './core/nav/nav.component';
+import { FooterComponent } from './core/footer/footer.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,12 +18,16 @@ import { NavComponent } from './core/nav/nav.component';
     HomeComponent,
     AlbumsComponent,
     FormulariosComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+    
     
     
   ],
