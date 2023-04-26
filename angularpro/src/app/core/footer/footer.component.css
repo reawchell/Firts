@@ -1,0 +1,39 @@
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+}
+
+ul{
+    list-style: none; 
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+}
+
+li{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5px;
+    /* align-items: center; */
+}
+
+.copy{
+    margin-top: 20px;
+}
+
+.iconoInsta{
+    width: 15px;
+    height: 15px;
+    /* margin-top:; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
