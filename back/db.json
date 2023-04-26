@@ -1,0 +1,134 @@
+{
+    
+    "RAP": [
+        { "nombre": "Kendrick Lamar", 
+        "edad": 34,
+         "origen": "Estados Unidos" },
+
+        {"nombre": "J. Cole", 
+        "edad": 36, 
+        "origen": "Estados Unidos" },
+
+        { "nombre": "Drake", 
+        "edad": 35, 
+        "origen": "Canadá" },
+
+        { "nombre": "Jay-Z", 
+        "edad": 51, 
+        "origen": "Estados Unidos" },
+
+        { "nombre": "Nas", 
+        "edad": 48, 
+        "origen": "Estados Unidos" },
+
+        { "nombre": "Eminem",
+        "edad": 49, 
+        "origen": "Estados Unidos" },
+
+        { "nombre": "Tupac Shakur", 
+        "edad": null, 
+        "origen": "Estados Unidos" },
+
+        { "nombre": "Notorious B.I.G.", 
+        "edad": null, 
+        "origen": "Estados Unidos" },
+
+        { "nombre": "Lil Wayne", 
+        "edad": 39, 
+        "origen": "Estados Unidos" },
+
+        { "nombre": "Kanye West", 
+        "edad": 44, 
+        "origen": "Estados Unidos" }
+    
+    ],
+    
+ 
+   
+     "POP": [
+    {"nombre": "Ariana Grande", 
+    "edad": 28, "origen": 
+    "Estados Unidos" },
+
+     { "nombre": "Dua Lipa", 
+     "edad": 26, "origen": 
+     "Reino Unido" },
+
+    { "nombre": "Justin Bieber", 
+    "edad": 27, 
+    "origen": "Canadá" },
+
+    { "nombre": "Billie Eilish", 
+    "edad": 20, 
+    "origen": "Estados Unidos" },
+
+    { "nombre": "Shawn Mendes", 
+    "edad": 23, 
+    "origen": "Canadá" },
+
+    { "nombre": "Taylor Swift", 
+    "edad": 32, 
+    "origen": "Estados Unidos" },
+
+     { "nombre": "Ed Sheeran", 
+     "edad": 30, 
+     "origen": "Reino Unido" },
+
+     { "nombre": "Demi Lovato", 
+     "edad": 29, 
+     "origen": "Estados Unidos" },
+
+    { "nombre": "Katy Perry", 
+    "edad": 37, 
+    "origen": "Estados Unidos" },
+
+    { "nombre": "Harry Styles", 
+    "edad": 28, 
+    "origen": "Reino Unido" }
+],
+
+
+    "Bossa Nova":[
+    { "nombre": "João Gilberto", 
+    "edad": 88, 
+    "origen": "Brasil" },
+
+    { "nombre": "Antônio Carlos Jobim", 
+    "edad": 67, 
+    "origen": "Brasil" },
+
+    { "nombre": "Astrud Gilberto", 
+    "edad": 81, 
+    "origen": "Brasil" },
+
+    { "nombre": "Stan Getz", 
+    "edad": 64, 
+    "origen": "Estados Unidos" },
+
+    { "nombre": "Vinicius de Moraes", 
+    "edad": 66, 
+    "origen": "Brasil" },
+
+    { "nombre": "Elis Regina", 
+    "edad": 36, 
+    "origen": "Brasil" },
+
+    { "nombre": "Bebel Gilberto", 
+    "edad": 54, 
+    "origen": "Brasil" },
+
+    { "nombre": "Carlos Lyra", 
+    "edad": 87, 
+    "origen": "Brasil" },
+
+    { "nombre": "Nara Leão", 
+    "edad": 47, 
+    "origen": "Brasil" },
+    
+    { "nombre": "Baden Powell", 
+    "edad": 63, 
+    "origen": "Brasil" }
+  ]
+      
+  }
+
