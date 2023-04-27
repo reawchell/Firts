@@ -16,6 +16,8 @@ ngOnInit() :void {
   this.rapService.getRAP().subscribe((data:any)=>{
     console.log(data);
 
+    this.listaRap= [...data]
+
   })
 }
 }
