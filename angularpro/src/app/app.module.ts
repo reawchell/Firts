@@ -11,6 +11,7 @@ import { FormulariosComponent } from './pages/formularios/formularios.component'
 import { NavComponent } from './core/nav/nav.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DetalleArtistaComponent } from './detalle-artista/detalle-artista.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AlbumsComponent,
     FormulariosComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    DetalleArtistaComponent
   ],
   imports: [
     BrowserModule,
