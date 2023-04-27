@@ -2,44 +2,74 @@
     
     "RAP": [
         { "nombre": "Kendrick Lamar", 
-        "edad": 34,
-         "origen": "Estados Unidos" },
+         "edad": 34,
+         "origen": "Estados Unidos",
+         "src": "./assets/RAP/Kendrick-Lamar.jpg",
+         "alt": "kendrick Lamar"
+        },
 
         {"nombre": "J. Cole", 
         "edad": 36, 
-        "origen": "Estados Unidos" },
+        "origen": "Estados Unidos",
+        "src":"./assets/RAP/J.Cole.jpg",
+        "alt": "J. Cole"
+        },
 
         { "nombre": "Drake", 
         "edad": 35, 
-        "origen": "Canadá" },
+        "origen": "Canadá",
+        "src": "./assets/RAP/drake.jpg",
+        "alt": "Drake"
+        },
 
         { "nombre": "Jay-Z", 
         "edad": 51, 
-        "origen": "Estados Unidos" },
+        "origen": "Estados Unidos",
+        "src": "./assets/RAP/jay-z.webp",
+        "alt": "Jay-Z"
+        },
 
         { "nombre": "Nas", 
         "edad": 48, 
-        "origen": "Estados Unidos" },
+        "origen": "Estados Unidos",
+        "src": "./assets/RAP/nas.webp",
+        "alt": "Nas"
+        },
 
         { "nombre": "Eminem",
         "edad": 49, 
-        "origen": "Estados Unidos" },
+        "origen": "Estados Unidos",
+        "src": "./assets/RAP/eminem.jpg",
+        "alt": "Eminem"
+        },
 
         { "nombre": "Tupac Shakur", 
         "edad": null, 
-        "origen": "Estados Unidos" },
+        "origen": "Estados Unidos",
+        "src": "./assets/RAP/Tupac.jpg",
+        "alt": "Tupac Shakur"
+        },
 
         { "nombre": "Notorious B.I.G.", 
         "edad": null, 
-        "origen": "Estados Unidos" },
+        "origen": "Estados Unidos",
+        "src": "./assets/RAP/Notorious.jpg",
+        "alt": "Notorious B.I.G."
+        },
 
         { "nombre": "Lil Wayne", 
         "edad": 39, 
-        "origen": "Estados Unidos" },
+        "origen": "Estados Unidos",
+        "src": "./assets/RAP/LilWayne.jpeg",
+        "alt": "Lil Wayne"
+        },
 
         { "nombre": "Kanye West", 
         "edad": 44, 
-        "origen": "Estados Unidos" }
+        "origen": "Estados Unidos",
+        "src": "./assets/RAP/KanyeWest.jpg",
+        "alt": "Kanye West"
+        }
     
     ],
     
@@ -48,7 +78,8 @@
      "POP": [
     {"nombre": "Ariana Grande", 
     "edad": 28, "origen": 
-    "Estados Unidos" },
+    "Estados Unidos" 
+    },
 
      { "nombre": "Dua Lipa", 
      "edad": 26, "origen": 

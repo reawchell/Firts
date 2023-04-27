@@ -6,22 +6,28 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { LibrosComponent } from './pages/libros/libros.component';
+import { AlbumsComponent } from './pages/albums/albums.component';
 import { FormulariosComponent } from './pages/formularios/formularios.component';
 import { NavComponent } from './core/nav/nav.component';
+import { FooterComponent } from './core/footer/footer.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LibrosComponent,
+    AlbumsComponent,
     FormulariosComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+    
     
     
   ],

@@ -1,0 +1,21 @@
+p{
+    margin-top: 40px;
+    color: white;
+}
+
+/* .cuerpo{
+    display: flex;
+    justify-content: center;
+} */
+
+.grande{
+    font-size: 100px;
+    color: white;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}

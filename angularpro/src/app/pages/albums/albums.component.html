@@ -1,0 +1,16 @@
+
+<!-- <p>Estamos en ALBUMS</p> -->
+
+<ul>
+    <li *ngFor="let album of listaRap ">
+        <div class="artista">
+        <h1>{{album.nombre}}</h1>
+        <div>
+            <p>Edad: {{album.edad}}</p>
+            <p>Origen: {{album.origen}}</p>
+            <img class="fotos" src="{{album.src}}" alt="{{album.nombre}}">
+        </div>
+        </div>
+    </li>
+</ul>
+

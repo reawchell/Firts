@@ -1,0 +1,27 @@
+.artista{
+    color: white;
+    border: white 1px solid;
+    width: 350px;
+}
+
+ul{
+     padding: 50px; 
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+li{
+    /* width: 50vw;
+    height: 20vh; */
+    margin-top: 30px;
+}
+
+.fotos{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
