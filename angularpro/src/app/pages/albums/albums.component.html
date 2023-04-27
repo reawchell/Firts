@@ -14,3 +14,28 @@
     </li>
 </ul>
 
+<ul>
+    <li *ngFor="let bn of listaBosaNova ">
+        <div class="artista">
+        <h1>{{bn.nombre}}</h1>
+        <div>
+            <p>Edad: {{bn.edad}}</p>
+            <p>Origen: {{bn.origen}}</p>
+            <img class="fotos" src="{{bn.src}}" alt="{{bn.nombre}}">
+        </div>
+        </div>
+    </li>
+</ul>
+
+<ul>
+    <li *ngFor="let pop of listaPop ">
+        <div class="artista">
+        <h1>{{pop.nombre}}</h1>
+        <div>
+            <p>Edad: {{pop.edad}}</p>
+            <p>Origen: {{pop.origen}}</p>
+            <img class="fotos" src="{{pop.src}}" alt="{{pop.nombre}}">
+        </div>
+        </div>
+    </li>
+</ul>
