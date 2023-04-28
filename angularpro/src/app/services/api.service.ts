@@ -22,4 +22,8 @@ export class ApiService {
   getPOP = () => {
     return this.http.get(this.baseUrl3)
   }
+
+  public getPersonajesById = (id: Number)=>{
+    return this.http.get(`${this.baseUrl}/${id}`)
+  }
 }
