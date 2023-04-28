@@ -1,4 +1,4 @@
-
+<!-- <button(click)="deleteCantante()"></button> -->
 <!-- <p>Estamos en ALBUMS</p> -->
 
 <ul>
@@ -12,6 +12,8 @@
             <button routerLink="/albums/{{album.id}}">Detalles</button>
         </div>
         </div>
+        
+        
     </li>
     
 </ul>
@@ -38,6 +40,9 @@
             <p>Origen: {{pop.origen}}</p>
             <img class="fotos" src="{{pop.src}}" alt="{{pop.nombre}}">
         </div>
+        <button class="button" (click)="deleteCantante()">DELETE</button>
+        
         </div>
     </li>
+    
 </ul>

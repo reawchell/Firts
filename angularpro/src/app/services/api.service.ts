@@ -22,4 +22,10 @@ export class ApiService {
   getPOP = () => {
     return this.http.get(this.baseUrl3)
   }
+
+  deleteCantante = (id:number)=>{
+    return this.http.delete(`${this.baseUrl}/${id}`)
+    return this.http.delete(`${this.baseUrl2}/${id}`)
+    return this.http.delete(`${this.baseUrl3}/${id}`)
+  }
 }

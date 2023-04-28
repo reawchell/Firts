@@ -9,9 +9,11 @@ import { ApiService } from "src/app/services/api.service";
   styleUrls: ['./albums.component.css']
 })
 export class AlbumsComponent {
-  listaRap: Cantantes []= []
-  listaBosaNova: Cantantes [] = []
-  listaPop: Cantantes [] = []
+  id!: number;
+  albums!: any;
+  listaRap: Cantantes []= [];
+  listaBosaNova: Cantantes [] = [];
+  listaPop: Cantantes [] = [];
 
 constructor(private rapService: ApiService, private bossaService: ApiService, private popService: ApiService){}
 
@@ -31,7 +33,17 @@ ngOnInit() :void {
 this.popService.getPOP().subscribe((data2:any)=>{
   console.log(data2)
   this.listaPop= [...data2]
-})
+});
+// this.rapService.getRAP(this.id).subscribe
+// ((data:any)=>{
 
+// })
+
+}
+deleteCantante =()=>{
+  this.rapService.deleteCantante(this.id).subscribe
+  ((data:any)=>{
+    alert("Cantante Elimidado")
+  })
 }
 }
