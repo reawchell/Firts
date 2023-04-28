@@ -1,165 +1,248 @@
 {
-    
-    "RAP": [
-        { "nombre": "Kendrick Lamar", 
-         "edad": 34,
-         "origen": "Estados Unidos",
-         "src": "./assets/RAP/Kendrick-Lamar.jpg",
-         "alt": "kendrick Lamar"
-        },
-
-        {"nombre": "J. Cole", 
-        "edad": 36, 
-        "origen": "Estados Unidos",
-        "src":"./assets/RAP/J.Cole.jpg",
-        "alt": "J. Cole"
-        },
-
-        { "nombre": "Drake", 
-        "edad": 35, 
-        "origen": "Canadá",
-        "src": "./assets/RAP/drake.jpg",
-        "alt": "Drake"
-        },
-
-        { "nombre": "Jay-Z", 
-        "edad": 51, 
-        "origen": "Estados Unidos",
-        "src": "./assets/RAP/jay-z.webp",
-        "alt": "Jay-Z"
-        },
-
-        { "nombre": "Nas", 
-        "edad": 48, 
-        "origen": "Estados Unidos",
-        "src": "./assets/RAP/nas.webp",
-        "alt": "Nas"
-        },
-
-        { "nombre": "Eminem",
-        "edad": 49, 
-        "origen": "Estados Unidos",
-        "src": "./assets/RAP/eminem.jpg",
-        "alt": "Eminem"
-        },
-
-        { "nombre": "Tupac Shakur", 
-        "edad": null, 
-        "origen": "Estados Unidos",
-        "src": "./assets/RAP/Tupac.jpg",
-        "alt": "Tupac Shakur"
-        },
-
-        { "nombre": "Notorious B.I.G.", 
-        "edad": null, 
-        "origen": "Estados Unidos",
-        "src": "./assets/RAP/Notorious.jpg",
-        "alt": "Notorious B.I.G."
-        },
-
-        { "nombre": "Lil Wayne", 
-        "edad": 39, 
-        "origen": "Estados Unidos",
-        "src": "./assets/RAP/LilWayne.jpeg",
-        "alt": "Lil Wayne"
-        },
-
-        { "nombre": "Kanye West", 
-        "edad": 44, 
-        "origen": "Estados Unidos",
-        "src": "./assets/RAP/KanyeWest.jpg",
-        "alt": "Kanye West"
-        }
-    
-    ],
-    
- 
-   
-     "POP": [
-    {"nombre": "Ariana Grande", 
-    "edad": 28, "origen": 
-    "Estados Unidos" 
+  "RAP": [
+    {
+      "id": 1,
+      "nombre": "Kendrick Lamar",
+      "edad": 34,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/Kendrick-Lamar.jpg",
+      "alt": "kendrick Lamar"
     },
-
-     { "nombre": "Dua Lipa", 
-     "edad": 26, "origen": 
-     "Reino Unido" },
-
-    { "nombre": "Justin Bieber", 
-    "edad": 27, 
-    "origen": "Canadá" },
-
-    { "nombre": "Billie Eilish", 
-    "edad": 20, 
-    "origen": "Estados Unidos" },
-
-    { "nombre": "Shawn Mendes", 
-    "edad": 23, 
-    "origen": "Canadá" },
-
-    { "nombre": "Taylor Swift", 
-    "edad": 32, 
-    "origen": "Estados Unidos" },
-
-     { "nombre": "Ed Sheeran", 
-     "edad": 30, 
-     "origen": "Reino Unido" },
-
-     { "nombre": "Demi Lovato", 
-     "edad": 29, 
-     "origen": "Estados Unidos" },
-
-    { "nombre": "Katy Perry", 
-    "edad": 37, 
-    "origen": "Estados Unidos" },
-
-    { "nombre": "Harry Styles", 
-    "edad": 28, 
-    "origen": "Reino Unido" }
-],
-
-
-    "BOSSANOVA":[
-    { "nombre": "João Gilberto", 
-    "edad": 88, 
-    "origen": "Brasil" },
-
-    { "nombre": "Antônio Carlos Jobim", 
-    "edad": 67, 
-    "origen": "Brasil" },
-
-    { "nombre": "Astrud Gilberto", 
-    "edad": 81, 
-    "origen": "Brasil" },
-
-    { "nombre": "Stan Getz", 
-    "edad": 64, 
-    "origen": "Estados Unidos" },
-
-    { "nombre": "Vinicius de Moraes", 
-    "edad": 66, 
-    "origen": "Brasil" },
-
-    { "nombre": "Elis Regina", 
-    "edad": 36, 
-    "origen": "Brasil" },
-
-    { "nombre": "Bebel Gilberto", 
-    "edad": 54, 
-    "origen": "Brasil" },
-
-    { "nombre": "Carlos Lyra", 
-    "edad": 87, 
-    "origen": "Brasil" },
-
-    { "nombre": "Nara Leão", 
-    "edad": 47, 
-    "origen": "Brasil" },
-    
-    { "nombre": "Baden Powell", 
-    "edad": 63, 
-    "origen": "Brasil" }
+    {
+      "id": 2,
+      "nombre": "J. Cole",
+      "edad": 36,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/J.Cole.jpg",
+      "alt": "J. Cole"
+    },
+    {
+      "id": 3,
+      "nombre": "Drake",
+      "edad": 35,
+      "origen": "Canadá",
+      "src": "./assets/RAP/drake.jpg",
+      "alt": "Drake"
+    },
+    {
+      "id": 4,
+      "nombre": "Jay-Z",
+      "edad": 51,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/jay-z.webp",
+      "alt": "Jay-Z"
+    },
+    {
+      "id": 5,
+      "nombre": "Nas",
+      "edad": 48,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/nas.webp",
+      "alt": "Nas"
+    },
+    {
+      "id": 6,
+      "nombre": "Eminem",
+      "edad": 49,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/eminem.jpg",
+      "alt": "Eminem"
+    },
+    {
+      "id": 7,
+      "nombre": "Tupac Shakur",
+      "edad": null,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/Tupac.jpg",
+      "alt": "Tupac Shakur"
+    },
+    {
+      "id": 8,
+      "nombre": "Notorious B.I.G.",
+      "edad": null,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/Notorious.jpg",
+      "alt": "Notorious B.I.G."
+    },
+    {
+      "id": 9,
+      "nombre": "Lil Wayne",
+      "edad": 39,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/LilWayne.jpeg",
+      "alt": "Lil Wayne"
+    },
+    {
+      "id": 10,
+      "nombre": "Kanye West",
+      "edad": 44,
+      "origen": "Estados Unidos",
+      "src": "./assets/RAP/KanyeWest.jpg",
+      "alt": "Kanye West"
+    }
+  ],
+  "POP": [
+    {
+      "id": 11,
+      "nombre": "Ariana Grande",
+      "edad": 28,
+      "origen": "Estados Unidos",
+      "src": "./assets/POP/ariana.webp",
+      "alt": "Ariana Grande"
+    },
+    {
+      "id": 11,
+      "nombre": "Dua Lipa",
+      "edad": 26,
+      "origen": "Reino Unido",
+      "src": "./assets/POP/dualipa.webp",
+      "alt": "Dua Lipa"
+    },
+    {
+      "id": 12,
+      "nombre": "Justin Bieber",
+      "edad": 27,
+      "origen": "Canadá",
+      "src": "./assets/POP/justin.webp",
+      "alt": "Justin Bieber"
+    },
+    {
+      "id": 13,
+      "nombre": "Billie Eilish",
+      "edad": 20,
+      "origen": "Estados Unidos",
+      "src": "./assets/POP/billie.webp",
+      "alt": "Bellie Eilish"
+    },
+    {
+      "id": 14,
+      "nombre": "Shawn Mendes",
+      "edad": 23,
+      "origen": "Canadá",
+      "src": "./assets/POP/shawn.webp",
+      "alt": "Shawn Mendes"
+    },
+    {
+      "id": 15,
+      "nombre": "Taylor Swift",
+      "edad": 32,
+      "origen": "Estados Unidos",
+      "src": "./assets/POP/taylor.webp",
+      "alt": "Taylor Swift"
+    },
+    {
+      "id": 16,
+      "nombre": "Ed Sheeran",
+      "edad": 30,
+      "origen": "Reino Unido",
+      "src": "./assets/POP/ed.webp",
+      "alt": "Ed Sheeran"
+    },
+    {
+      "id": 17,
+      "nombre": "Demi Lovato",
+      "edad": 29,
+      "origen": "Estados Unidos",
+      "src": "./assets/POP/demi.webp",
+      "alt": "Demi Lovato"
+    },
+    {
+      "id": 18,
+      "nombre": "Katy Perry",
+      "edad": 37,
+      "origen": "Estados Unidos",
+      "src": "./assets/POP/katy.webp",
+      "alt": "Katy Perry"
+    },
+    {
+      "id": 19,
+      "nombre": "Harry Styles",
+      "edad": 28,
+      "origen": "Reino Unido",
+      "src": "./assets/POP/harry.webp",
+      "alt": "Harry Styles"
+    }
+  ],
+  "BOSSANOVA": [
+    {
+      "id": 20,
+      "nombre": "João Gilberto",
+      "edad": 88,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/gilberto.webp",
+      "alt": "Gilberto"
+    },
+    {
+      "id": 21,
+      "nombre": "Antônio Carlos Jobim",
+      "edad": 67,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/jobim.jpg",
+      "alt": "Carlos Jobim"
+    },
+    {
+      "id": 22,
+      "nombre": "Astrud Gilberto",
+      "edad": 81,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/astrud.jpg",
+      "alt": "Astrud"
+    },
+    {
+      "id": 23,
+      "nombre": "Stan Getz",
+      "edad": 64,
+      "origen": "Estados Unidos",
+      "src": "./assets/BOSSA/stan.jpg",
+      "alt": "Astrud"
+    },
+    {
+      "id": 24,
+      "nombre": "Vinicius de Moraes",
+      "edad": 66,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/vinicius.jpg",
+      "alt": "Moraes"
+    },
+    {
+      "id": 25,
+      "nombre": "Elis Regina",
+      "edad": 36,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/elis.jpg",
+      "alt": "Elis Regina"
+    },
+    {
+      "id": 26,
+      "nombre": "Bebel Gilberto",
+      "edad": 54,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/bebel.jpg",
+      "alt": "Bebel"
+    },
+    {
+      "id": 27,
+      "nombre": "Carlos Lyra",
+      "edad": 87,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/lyra.jpg",
+      "alt": "Carlos Lyra"
+    },
+    {
+      "id": 28,
+      "nombre": "Nara Leão",
+      "edad": 47,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/nara.jpg",
+      "alt": "Nara"
+    },
+    {
+      "id": 29,
+      "nombre": "Baden Powell",
+      "edad": 63,
+      "origen": "Brasil",
+      "src": "./assets/BOSSA/powell.jpg",
+      "alt": "Baden"
+    }
   ]
-      
-  }
-
+}

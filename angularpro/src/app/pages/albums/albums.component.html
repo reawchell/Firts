@@ -1,3 +1,4 @@
+
 <!-- <p>Estamos en ALBUMS</p> -->
 <div class="albums">
   <p class="separador"></p>
@@ -11,9 +12,7 @@
         <div>
           <img class="fotos" src="{{ album.src }}" alt="{{ album.nombre }}" />
         </div>
-      </div>
-    </button>
-  </li>
+ 
 </ul>
 <p class="separador"></p>
 <h1 class="titulo">BOSSA NOVA</h1>
@@ -34,15 +33,19 @@
 <h1 class="titulo">POP</h1>
 <p class="separador"></p>
 <ul>
-  <li *ngFor="let pop of listaPop">
-    <div class="artista">
-      <h1>{{ pop.nombre }}</h1>
-      <div>
-        <p>Edad: {{ pop.edad }}</p>
-        <p>Origen: {{ pop.origen }}</p>
-        <img class="fotos" src="{{ pop.src }}" alt="{{ pop.nombre }}" />
-      </div>
-    </div>
-  </li>
+
+    <li *ngFor="let pop of listaPop ">
+        <div class="artista">
+        <h1>{{pop.nombre}}</h1>
+        <div>
+            <p>Edad: {{pop.edad}}</p>
+            <p>Origen: {{pop.origen}}</p>
+            <img class="fotos" src="{{pop.src}}" alt="{{pop.nombre}}">
+        </div>
+        <button class="button" (click)="deleteCantante()">DELETE</button>
+        
+        </div>
+    </li>
+    
 </ul>
-</div>
+

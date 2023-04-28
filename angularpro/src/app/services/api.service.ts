@@ -23,7 +23,14 @@ export class ApiService {
     return this.http.get(this.baseUrl3)
   }
 
-  public getPersonajesById = (id: Number)=>{
+
+  deleteCantante = (id:number)=>{
+    return this.http.delete(`${this.baseUrl}/${id}`)
+    return this.http.delete(`${this.baseUrl2}/${id}`)
+    return this.http.delete(`${this.baseUrl3}/${id}`)
+
+  public getPersonajesById = (id: number)=>{
     return this.http.get(`${this.baseUrl}/${id}`)
+
   }
 }
