@@ -9,7 +9,7 @@ const routes: Routes = [
   {path:"", component: HomeComponent},
   {path:"albums", component: AlbumsComponent},
   {path:"formularios", component: FormulariosComponent},
-  {path:"albums/:id", component: DetalleArtistaComponent},
+  {path:"albums/:nombre", component: DetalleArtistaComponent},
 ];
 
 

@@ -1,37 +1,39 @@
-<!-- <button(click)="deleteCantante()"></button> -->
+
 <!-- <p>Estamos en ALBUMS</p> -->
-
+<div class="albums">
+  <p class="separador"></p>
+  <h1 class="titulo">RAP</h1>
+  <p class="separador"></p>
 <ul>
-    <li *ngFor="let album of listaRap ">
-        <div class="artista">
-        <h1>{{album.nombre}}</h1>
+  <li *ngFor="let album of listaRap">
+    <button routerLink="/albums/{{ album.id }}">
+      <div class="artista">
+        <h1>{{ album.nombre }}</h1>
         <div>
-            <p>Edad: {{album.edad}}</p>
-            <p>Origen: {{album.origen}}</p>
-            <img class="fotos" src="{{album.src}}" alt="{{album.nombre}}">
-            <button routerLink="/albums/{{album.id}}">Detalles</button>
+          <img class="fotos" src="{{ album.src }}" alt="{{ album.nombre }}" />
         </div>
-        </div>
-        
-        
-    </li>
-    
+ 
 </ul>
-
+<p class="separador"></p>
+<h1 class="titulo">BOSSA NOVA</h1>
+<p class="separador"></p>
 <ul>
-    <li *ngFor="let bn of listaBosaNova ">
-        <div class="artista">
-        <h1>{{bn.nombre}}</h1>
-        <div>
-            <p>Edad: {{bn.edad}}</p>
-            <p>Origen: {{bn.origen}}</p>
-            <img class="fotos" src="{{bn.src}}" alt="{{bn.nombre}}">
-        </div>
-        </div>
-    </li>
+  <li *ngFor="let bn of listaBosaNova">
+    <div class="artista">
+      <h1>{{ bn.nombre }}</h1>
+      <div>
+        <p>Edad: {{ bn.edad }}</p>
+        <p>Origen: {{ bn.origen }}</p>
+        <img class="fotos" src="{{ bn.src }}" alt="{{ bn.nombre }}" />
+      </div>
+    </div>
+  </li>
 </ul>
-
+<p class="separador"></p>
+<h1 class="titulo">POP</h1>
+<p class="separador"></p>
 <ul>
+
     <li *ngFor="let pop of listaPop ">
         <div class="artista">
         <h1>{{pop.nombre}}</h1>
@@ -46,3 +48,4 @@
     </li>
     
 </ul>
+
