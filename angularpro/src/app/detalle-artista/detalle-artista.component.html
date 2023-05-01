@@ -1,13 +1,47 @@
-<h1>Descripcion de cada artista</h1>
+<!-- <li>
+  <h4>{{rap.nombre}}</h4>
+  <p>nombre:{{rap.nombre}}</p>
+  <p>edad:{{rap.edad}}</p>
+  <p>origen:{{rap.origen}}</p>
+  <img src="{{rap.src}}" alt="{{rap.nombre}}">
+  <p>id:{{rap.id}}</p>
+  
+</li> -->
 
-<!-- <div class="artista">
-  <h1>{{ album.nombre }}</h1>
+
+<h1 class="lore">Descripcion del Artista
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+   Enim, aspernatur itaque suscipit iure esse velit vero illum
+    quisquam numquam obcaecati facere necessitatibus, asperiores 
+  ex perspiciatis explicabo aliquam inventore dicta quidem?</h1>
+
+ 
+<div class="artista">
+  <h1>{{rap.nombre }}</h1>
   <div>
-    <p>Edad: {{ album.edad }}</p>
-    <p>Origen: {{ album.origen }}</p>
-    <img class="fotos" src="{{ album.src }}" alt="{{ album.nombre }}" />
-    <button routerLink="/albums/{{ album.nombre }}">Detalles</button>
+    <p>Edad: {{ rap.edad }}</p>
+    <p>Origen: {{ rap.origen }}</p>
+    <img class="fotos" src="{{ rap.src }}" alt="{{ rap.nombre }}" />
+    <button routerLink="/album/{{ rap.id }}">Detalles</button>
+    
+ 
+
+  <h1>{{bossa.nombre }}</h1>
+  <div>
+    <p>Edad: {{ bossa.edad }}</p>
+    <p>Origen: {{ bossa.origen }}</p>
+    <img class="fotos" src="{{bossa.src }}" alt="{{bossa.nombre }}" />
+    <button routerLink="/album/{{bossa.id }}">Detalles</button>
+
+    
+  <h1>{{pop.nombre }}</h1>
+  <div>
+    <p>Edad: {{pop.edad }}</p>
+    <p>Origen: {{pop.origen }}</p>
+    <img class="fotos" src="{{pop.src }}" alt="{{pop.nombre }}" />
+    <button routerLink="/album/{{pop.id }}">Detalles</button>
   </div>
-</div>  -->
-<!-- <h1>{{nombre}}</h1> -->
+</div>  
+</div>
+</div>
 
