@@ -26,10 +26,10 @@ li{
     height: 300px;
 }
 
-/* button{
+button{
     color: white;
     background-color: green;
-} */
+}
 
 .titulo{
     font-size: 100px;
@@ -37,6 +37,7 @@ li{
     border: solid white 2px;
     background-color: white;
     margin: 100px 0 100px 0;
+
 }
 
 .albums{
@@ -50,4 +51,5 @@ li{
     border: 1px solid white;
     height: 1px;
     width: 400px;
+    
 }
