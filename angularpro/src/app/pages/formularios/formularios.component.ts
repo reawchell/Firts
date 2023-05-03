@@ -10,13 +10,12 @@ import { ApiService } from 'src/app/services/api.service';
 })
 export class FormulariosComponent {
 albumsForm!: FormGroup;  
-  form: any;
-  Router: any;
-constructor(private servicio:ApiService,private formu:FormBuilder){}
+ 
+constructor(private servicio:ApiService,private formu:FormBuilder, private router:Router){}
 public nuevoAlbum = this.servicio.albumInfo;
 public albumId = this.servicio.albumInfo.id;
-ngOnIt():void{
-  this.albumsForm =  this.form.group({
+ngOnInit():void{
+  this.albumsForm =  this.formu.group({
     id: [
       this.nuevoAlbum.id, [Validators.required]
     ],
@@ -43,17 +42,20 @@ ngOnIt():void{
   });
 }
 onSubmit = () => { 
-this.servicio.postRAP, this.servicio.postBOSSA, this.servicio.postPOPI(this.nuevoAlbum).subscribe();
+// this.servicio.postRAP(this.nuevoAlbum).subscribe();
 this.servicio.cleanAlbum();
-if(this.albumId ! == ''){
+if(this.albumId !== ''){
   this.servicio.putAlbum(this.albumId, this.nuevoAlbum).subscribe();
   alert("Album Editado")
-  this.Router.navigate(["/albums"])
+  this.router.navigate(["/albums"])
+  this.servicio.cleanAlbum();
 }
 
-else{this.servicio.postRAP, this.servicio.postBOSSA, this.servicio.postPOPI(this.nuevoAlbum).subscribe();
+
+else{
+  this.servicio.postRAP(this.nuevoAlbum).subscribe();
   alert("Album Nuevo Añadido")
-  this.Router.navigate(["/albums"])
+  this.router.navigate(["/albums"])
 }
 this.albumsForm.reset();
 }

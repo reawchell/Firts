@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "nombre": "Drake",
+      "nombre": "Drakes",
       "edad": 35,
       "origen": "Canadá",
       "src": "./assets/RAP/drake.jpg",
@@ -73,12 +73,12 @@
       "alt": "Lil Wayne"
     },
     {
-      "id": 10,
-      "nombre": "Kanye West",
-      "edad": 44,
-      "origen": "Estados Unidos",
-      "src": "./assets/RAP/KanyeWest.jpg",
-      "alt": "Kanye West"
+      "id": "31",
+      "nombre": "SFDK",
+      "edad": "45",
+      "origen": "España",
+      "src": "https://www.mondosonoro.com/wp-content/uploads/2022/12/SFDK-1.jpg",
+      "alt": "SFDK"
     }
   ],
   "POP": [

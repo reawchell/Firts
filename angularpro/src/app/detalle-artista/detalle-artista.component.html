@@ -1,11 +1,14 @@
 
-<!-- <div class="todo"> -->
+<div class="todo"> 
   <div>
-    <h1>{{ rap.nombre || bossa.nombre || pop.nombre }}</h1>
-    <p>Edad: {{ rap.edad || bossa.edad || pop.edad }}</p>
-    <p>Origen: {{ rap.origen || bossa.origen || pop.origen }}</p>
-    <img class="fotos" src="{{ rap.src || bossa.src || pop.src }}" alt="{{ rap.nombre || bossa.nombre || pop.nombre }}" />
+    <h1>{{ rap.nombre}}</h1>
+    <p>Edad: {{ rap.edad}}</p>
+    <p>Origen: {{ rap.origen}}</p>
+    <img class="fotos" src="{{ rap.src }}" alt="{{ rap.nombre }}" />
+    <div class="botones">
     <button class="button" routerLink="/albums">Volver</button>
+    <button class="button" (click)="deleteCantante()">Borrar</button>
+    </div>
   </div>
 
   <!-- <div>
@@ -21,4 +24,4 @@
     <p>Origen: {{ pop.origen }}</p>
     <img class="fotos" src="{{ pop.src }}" alt="{{ pop.nombre }}" />
   </div> -->
-<!-- </div> -->
+</div>

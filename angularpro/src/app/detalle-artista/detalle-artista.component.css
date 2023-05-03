@@ -11,12 +11,19 @@ h1{
     /* display: flex;
     justify-content: center; */
 }
+.botones{
+    display: flex;
+    gap: 15px;
+    flex-flow: row wrap;
+}
 
 .button{
     background-color: #5bc0de;
     width: 6%;
     border-radius: 5px;
     color: white;
+    width: 60px;
+    height: 30px;
 }
 
 .fotos{

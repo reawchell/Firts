@@ -14,18 +14,18 @@
           <img class="fotos" src="{{ album.src }}" alt="{{ album.nombre }}" />
         </div>
         <div class="botones">
-        <button class="button" (click)="deleteCantante()">Delete</button>
-        <button class="button" (click)="editarCantante(albums)">Editar</button>
+        <!-- <button class="button" (click)="deleteCantante()">Delete</button> -->
+        <button class="button" (click)="editarCantante(album)">Editar</button>
       </div>
       </div>
     </li>
   </ul>
 
-  <p class="separador"></p>
+  <!-- <p class="separador"></p>
   <h1 class="titulo">BOSSA NOVA</h1>
-  <p class="separador"></p>
+  <p class="separador"></p> -->
 
-  <ul>
+  <!-- <ul>
     <li *ngFor="let bn of listaBosaNova">
       <button class="button" routerLink="/albums/{{ bn.id }}">Detalles</button>
       <div class="artista">
@@ -62,5 +62,5 @@
         </div>
       </div>
     </li>
-  </ul>
+  </ul> -->
 </div>
