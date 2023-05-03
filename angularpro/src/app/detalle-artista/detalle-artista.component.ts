@@ -32,12 +32,11 @@ this.servicio.getBOSSA(this.id).subscribe((data:any)=>{
   console.log(data);
   this.bossa = data;
 })
+
 this.servicio.getPOPI(this.id).subscribe((data:any)=>{
   console.log(data);
   this.pop = data;
 })
-
-
 } 
  
 }

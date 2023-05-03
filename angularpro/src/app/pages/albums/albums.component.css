@@ -2,10 +2,13 @@
     color: white;
     border: white 1px solid;
     width: 350px;
+    border-radius: 7px;
 }
 
 ul{
      /* padding: 50px;  */
+     padding-left: 50px;
+     padding-right: 50px;
     margin-top: 20px;
     display: flex;
     flex-flow: row wrap;
@@ -13,22 +16,32 @@ ul{
     align-items: center;
     list-style: none;
     gap: 30px;
+ 
+}
+
+li:hover{
+    transform: scale(1.2);
 }
 li{
     /* width: 50vw;
     height: 20vh; */
     margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .fotos{
     margin-top: 20px;
     width: 100%;
     height: 300px;
+    /* cursor: pointer; */
+    /* transform: scale(2.0); */
+    
+    /* transition: all 0.5s ease-in-out; */
 }
 
-button{
-    color: white;
-    background-color: green;
+.fotos:hover{
+    /* transform: scale(1.5); */
 }
 
 .titulo{
@@ -51,5 +64,39 @@ button{
     border: 1px solid white;
     height: 1px;
     width: 400px;
+}
+
+.botones{
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 20px;
+    gap: 10px;
+    /* justify-content: space-around; */
+}
+.button{
+    color: white;
+    background-color: #5bc0de;
+    border-radius: 6px;
+    width: 20%;
+    height: 25px;
+   
+}
+
+.button:hover{
+    color: white;
+    background-color: rgb(114, 235, 114);
     
+}
+
+.delete:hover{
+    color: white;
+    background-color:#e57d79;
+}
+
+.delete{
+    border-radius: 6px;
+    width: 20%;
+    height: 25px;
+    color: white;
+    background-color: #d9534f;
 }
