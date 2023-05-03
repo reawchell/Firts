@@ -2,13 +2,19 @@
     color: white
 } */
 p{
-    margin-top: 40px;
+    /* margin-left: 120px;
+    margin-right: 120px; */
     color: white;
+    font-size: 20px;
 }
 
 .cuerpo{
     display: flex;
     justify-content: center;
+    /* font-size: medium; */
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 50px;
 }
 
 .grande{
@@ -21,4 +27,20 @@ div{
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
+    color: white;
+    font-size: 100px;
+}
+
+.home{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: start;
+    gap: 50px;
+}
+
+.imagen{
+    width: 50%;
+    height: 40%;
+    /* margin: 50px 0 50px 0; */
 }

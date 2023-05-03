@@ -1,47 +1,24 @@
-<!-- <li>
-  <h4>{{rap.nombre}}</h4>
-  <p>nombre:{{rap.nombre}}</p>
-  <p>edad:{{rap.edad}}</p>
-  <p>origen:{{rap.origen}}</p>
-  <img src="{{rap.src}}" alt="{{rap.nombre}}">
-  <p>id:{{rap.id}}</p>
-  
-</li> -->
 
-
-<h1 class="lore">Descripcion del Artista
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-   Enim, aspernatur itaque suscipit iure esse velit vero illum
-    quisquam numquam obcaecati facere necessitatibus, asperiores 
-  ex perspiciatis explicabo aliquam inventore dicta quidem?</h1>
-
- 
-<div class="artista">
-  <h1>{{rap.nombre }}</h1>
+<!-- <div class="todo"> -->
   <div>
-    <p>Edad: {{ rap.edad }}</p>
-    <p>Origen: {{ rap.origen }}</p>
-    <img class="fotos" src="{{ rap.src }}" alt="{{ rap.nombre }}" />
-    <button routerLink="/album/{{ rap.id }}">Detalles</button>
-    
- 
+    <h1>{{ rap.nombre || bossa.nombre || pop.nombre }}</h1>
+    <p>Edad: {{ rap.edad || bossa.edad || pop.edad }}</p>
+    <p>Origen: {{ rap.origen || bossa.origen || pop.origen }}</p>
+    <img class="fotos" src="{{ rap.src || bossa.src || pop.src }}" alt="{{ rap.nombre || bossa.nombre || pop.nombre }}" />
+    <button class="button" routerLink="/albums">Volver</button>
+  </div>
 
-  <h1>{{bossa.nombre }}</h1>
-  <div>
+  <!-- <div>
+    <h1>{{ bossa.nombre }}</h1>
     <p>Edad: {{ bossa.edad }}</p>
     <p>Origen: {{ bossa.origen }}</p>
-    <img class="fotos" src="{{bossa.src }}" alt="{{bossa.nombre }}" />
-    <button routerLink="/album/{{bossa.id }}">Detalles</button>
-
-    
-  <h1>{{pop.nombre }}</h1>
-  <div>
-    <p>Edad: {{pop.edad }}</p>
-    <p>Origen: {{pop.origen }}</p>
-    <img class="fotos" src="{{pop.src }}" alt="{{pop.nombre }}" />
-    <button routerLink="/album/{{pop.id }}">Detalles</button>
+    <img class="fotos" src="{{ bossa.src }}" alt="{{ bossa.nombre }}" />
   </div>
-</div>  
-</div>
-</div>
 
+  <div>
+    <h1>{{ pop.nombre }}</h1>
+    <p>Edad: {{ pop.edad }}</p>
+    <p>Origen: {{ pop.origen }}</p>
+    <img class="fotos" src="{{ pop.src }}" alt="{{ pop.nombre }}" />
+  </div> -->
+<!-- </div> -->

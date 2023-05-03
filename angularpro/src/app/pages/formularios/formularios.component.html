@@ -1,15 +1,11 @@
-<!-- 
-<div class="cuerpo">
-    <p>ESTA ES LA PARTE</p>
-    <h1 class="grande">FORMULARIOS</h1>
-</div> -->
-
-<form [formGroup]="albumsForm" (ngSubmit)="onSubmit()" >
+<form class="formu" [formGroup]="albumsForm" (ngSubmit)="onSubmit()" >
+    <h1>FORMULARIOS</h1>
     <input class="teste" formControlName="id" placeholder="id">
     <input class="teste" formControlName="nombre" placeholder="nombre">
     <input class="teste" formControlName="edad" placeholder="edad">
     <input class="teste" formControlName="origen" placeholder="origen">
     <input class="teste" formControlName="src" placeholder="imagen">
     <input class="teste" formControlName="alt" placeholder="cantante" />
-    <button type="submit">Submit</button>
+    <button class="button" type="submit">Submit</button>
 </form>
+
